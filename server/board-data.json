@@ -1,0 +1,26 @@
+{
+  "boards": {
+    "1": {
+      "name": "Demo Board",
+      "cards": {
+        "1": {
+          "title": "To Do",
+          "description": "Stuff to do",
+          "tasks": ["task1", "task2", "task3"]
+        },
+        "2": {
+          "title": "Doing",
+          "description": "Stuf we're working on",
+          "tasks": ["task1", "task2", "task3"]
+        },
+        "3": {
+          "title": "Done",
+          "description": "Stuff thats complete",
+          "tasks": ["task1", "task2", "task3"]
+        }
+      }
+    },
+    "2": { "name": "Another Board", "cards": {} },
+    "3": { "name": "A 3rd Board", "cards": {} }
+  }
+}
