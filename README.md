@@ -45,6 +45,6 @@ This app and it's api are designed to use Jest as a testing framework as well as
 
 <strong>Front end:</strong>
 
-- Is only hooked up to Boards above
+- Is only hooked up to Boards api above (just displays all boards)
   - Single Board page is still hard coded
   - Cannot create, edit or delete boards or cards
