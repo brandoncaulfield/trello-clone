@@ -63,7 +63,11 @@ describe("Cards", () => {
       });
     expect(res.statusCode).toEqual(200);
     expect(res.body).toBe(
-      "Successfully updated a card and saved it to the database"
+      "Successfully updated card and saved it to the database"
     );
   });
+});
+
+afterEach(async () => {
+  await server.close();
 });
