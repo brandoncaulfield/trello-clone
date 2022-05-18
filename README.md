@@ -26,7 +26,7 @@ Start the server
 
 Start the app
 
-> <code>node start</code>
+> <code>npm start</code>
 
 ## How to test this app
 
